@@ -1,7 +1,7 @@
 body {
     padding: 0;
     overflow: hidden;
-    font-family: helvetica, arial, sans-serif;
+    font-family: 'Slabo 27px', helvetica, arial, sans-serif;
 }
 
 p.main {
@@ -25,7 +25,8 @@ p.main {
     overflow-y: auto;
     padding: 20px;
     font-size: 16px;
-    background-color: #D7E9E9;
+    background-color: #1A2930;
+    color: white;
 }
 
 .legend {
@@ -36,6 +37,7 @@ p.main {
   list-style: none;
   width: 200px
 }
+
 .legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
 .legend .clusters { background-color: #00ff00; }
 .legend .breeding { background-color: #FCA6A9; }
@@ -44,25 +46,28 @@ p.main {
 .reset {
   position: absolute;
   left: 297px;
-  background-color: #F0ECE9;
+  background-color: white;
+  color:black;
 }
 
 .next {
   position: absolute;
   bottom: 75px;
   left: 200px;
-  background-color: #F0ECE9;
+  background-color: white;
+  color:black;
 }
 
 .previous {
   position: absolute;
   bottom: 75px;
   left: 75px;
-  background-color: #F0ECE9;
+  background-color: white;
+  color:black;
 }
 
 button:hover {
-  background-color:white;
+  background-color:#C5C1C0;
 }
 
 #mosref {
